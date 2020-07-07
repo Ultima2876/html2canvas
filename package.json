@@ -82,7 +82,8 @@
     "test:node": "mocha tests/node/*.js",
     "karma": "node karma",
     "watch": "webpack --progress --colors --watch",
-    "start": "node tests/server"
+    "start": "node tests/server",
+    "install": "npm run build"
   },
   "homepage": "https://html2canvas.hertzen.com",
   "license": "MIT",
